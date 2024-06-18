@@ -47,10 +47,10 @@ const MobileSideBar = () => {
       bg-slate-200 w-full left-0 justify-center sm:hidden"
       >
         <Link to={"/"}>
-          <Home size={24}></Home>
+          <Home size={24} className="cursor-pointer"></Home>
         </Link>
         <Link to={"/favourites"}>
-          <Heart size={24} />
+          <Heart size={24} className="cursor-pointer" />
         </Link>
       </div>
     </>

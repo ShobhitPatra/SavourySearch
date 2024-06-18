@@ -1,7 +1,12 @@
 import React from "react";
+import RecipieCard from "../components/RecipieCard";
 
 const Favourites = () => {
-  return <div>Favourites</div>;
+  return (
+    <>
+      <RecipieCard />
+    </>
+  );
 };
 
 export default Favourites;
